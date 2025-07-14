@@ -1,7 +1,6 @@
 absl_py
 cloudpickle
 fairscale
-faiss_gpu
 json_repair
 peft
 pydantic
@@ -15,3 +14,5 @@ torchvision # some version
 torchaudio # some version
 numpy==1.26.3
 xformers==0.0.27.post2
+latex2sympy2
+word2number
