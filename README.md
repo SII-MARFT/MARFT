@@ -48,6 +48,16 @@ python3 examples/marft/deepscaler_marft.py \
     scheduler.type=local
 ```
 
+### Math Training (GSM8K)
+
+```bash
+python3 examples/math/gsm8k_rl.py \
+    --config examples/math/gsm8k_grpo.yaml \
+    scheduler.type=local
+```
+
+For a multi-turn GSM8K setup, see [`examples/multi_turn_math/`](examples/multi_turn_math/).
+
 For comprehensive setup and multi-node instructions, see the
 [AReaL quickstart guide](https://inclusionai.github.io/AReaL/tutorial/quickstart.html).
 
